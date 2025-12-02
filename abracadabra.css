@@ -5,7 +5,7 @@ ul {
 }
 
 body {
-    flex-direction: row;
+    flex-direction: column;
     display: flex;
     width: 99%;
     height: 99%;
@@ -52,8 +52,8 @@ article {
 #profil {
     margin: 50px;
     margin-top: 30px;
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     background-color: black;
 }
 
@@ -71,20 +71,20 @@ article {
 #praca {
     margin-left: 50px;
     margin-bottom: 30px;
-    width: 350px;
-    height: 300px;
+    width: 400px;
+    height: 325px;
     background-color: #1E1E1E;
     display: flex;
     flex-direction: column;
     border: 3px solid #1E1E1E;
     color: #F5FAFF;
-    font-size: 20px;
+    font-size: 23px;
 
 }
 
 #praca2 {
     text-align: center;
-    width: 350px;
+    width: 400px;
     height: 75px;
     background-color: #F5FAFF;
     font-family: "Nunito", sans-serif;
@@ -92,8 +92,8 @@ article {
 }
 
 #kontakt {
-    width: 350px;
-    height: 300px;
+    width: 400px;
+    height: 325px;
     display: flex;
     background-color: #F5FAFF;
     border: 3px solid #1E1E1E;
@@ -130,8 +130,8 @@ article {
 }
 
 #kontakt2 {
-    width: 350px;
-    height: 75px;
+    width: 400px;
+    height: 100px;
     background-color: #1E1E1E;
     color: #F5FAFF;
     font-family: "Nunito", sans-serif;
@@ -141,8 +141,8 @@ article {
 }
 
 img {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
 }
 
 #blok2 {
@@ -150,7 +150,7 @@ img {
     height: 400px;
     width: 1300px;
     justify-content: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 #theme {
@@ -171,7 +171,6 @@ img {
     display: flex;
     flex-direction: column;
     justify-self: flex-end;
-    justify-content: s;
 }
 
 #programy {
@@ -189,6 +188,7 @@ img {
 
 #technology {
     font-family: 'Lilita one';
+    font-size: 30px;
 }
 
 #send {
@@ -210,7 +210,7 @@ img {
 
 #kto {
     width: 500px;
-    height: 100px;
+    height: 75px;
     background-color: #F5FAFF;
     font-family: 'Lilita one';
     font-size: 45px;
@@ -223,21 +223,21 @@ img {
 
 #bloczek {
     display: flex;
-    height: 100px;
+    justify-content: flex-end;
     background-color: #F5FAFF;
     width: 380px;
 }
 
 #ikony {
     width: 50px;
-    height: 100px;
+    height: 90px;
     display: flex;
     flex-direction: column;
 }
 
 #cos {
     width: 330px;
-    height: 100px;
+    height: 75px;
 }
 
 .gmg {
@@ -247,4 +247,26 @@ img {
 #tekst {
     height: 75px;
     width: 380px;
+}
+#button{
+    width: 70px;
+    height: 70px;
+    align-self: center;
+    border-radius: 50%;
+}
+#buttond{
+    width: 85px;
+    border-radius: 50%;
+    height: 85px;
+}
+#megarodzic{
+    display: flex;
+    flex-direction: row;
+}
+hr{
+    border-top: 7px dashed #1E1E1E;
+    width: 98%;
+}
+#java{
+    font-size: 23px;
 }
