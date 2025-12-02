@@ -116,3 +116,35 @@ print(color_text('xd', 'GREEN'))
 
 WIDTH = 20
 HEIGHT = 10
+
+snake = [(5, 5), (5, 4), (5, 3)] # długość początkowa
+direction = 'd' # start: w prawo
+
+food = (random.randint(0, HEIGHT-1), random.randint(0, WIDTH-1))
+super_food = (random.randint(0, round((HEIGHT-1)/2)), random.randint(0, round((WIDTH-1)/2)))
+
+# render_board() lub render_board(100, 50)
+
+def render_board(HEIGHT = HEIGHT, WIDTH = WIDTH):
+    for y in range(HEIGHT):
+        for x in range(WIDTH):
+            if(y,x) == food:
+                print(color_text("@"), end="")
+            elif (x,y) in snake:
+                print(color_text("#", "BLUE"))
+            else:
+                print(" ", end="")
+        print()
+
+
+
+def draw():
+    os.system('cls' if os.name == 'nt' else 'clear')
+
+    render_board
+
+draw()
+
+    for y in range(HEIGHT):
+        for x in range(WIDTH):
+            if
