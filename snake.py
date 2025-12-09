@@ -1,25 +1,6 @@
-while(True):
-    print("> Big boss")
-    print("> Wybierz opcje")
-    print("1) Start")
-    print("2) Opcje")
-    print("q) Wyjdź")
-    Snake = input("Opcja nr : ")
-    if Snake == "q":
-        break
-    if Snake == '1':
-        print("Start")
-        break
-    if Snake == '2':
-        print("1) Alt + F4")
-        print("2) Ustawienia Jamnika")
-        break
-
-
-
-
-
 import random
+import os
+import time
 
 def numguesser():
     PLAYING = 1
@@ -45,11 +26,6 @@ def numguesser():
             print("Nie udało Ci się zgadnąć")
             PLAYING = 0
 
-numguesser()
-
-Papież kamien NOŻYCE
-
-import random
 
 def PKN():
 
@@ -82,10 +58,6 @@ def PKN():
         else:
             SCORE += 1
             print(f'Wygrałeś! Zyskujesz 1 punkt do puli {SCORE}')
-
-import os
-import random
-import time
 
 
 def color_text(text, color = "RED"):
@@ -133,18 +105,36 @@ def render_board(HEIGHT = HEIGHT, WIDTH = WIDTH):
             elif (x,y) in snake:
                 print(color_text("#", "BLUE"))
             else:
-                print(" ", end="")
+                print("", end="")
         print()
 
+wartosc_proc = (random.randint(1, 100))
 
+def superfut(warotsc_proc, super_food, proc):
+    if warotsc_proc >= proc:
+        return(super_food)
+    else:
+        pass
 
 def draw():
     os.system('cls' if os.name == 'nt' else 'clear')
 
-    render_board
+    render_board()
 
-draw()
 
-    for y in range(HEIGHT):
-        for x in range(WIDTH):
-            if
+
+
+print("> Big boss")
+print("> Wybierz opcje")
+print("1) Snake")
+print("2) Numguesser")
+print("3) PKN")
+Snake = input("Opcja nr : ")
+if Snake == '1':
+    print(draw())
+if Snake == '2':
+    print(numguesser())
+if Snake == '3':
+    print(PKN())
+
+
