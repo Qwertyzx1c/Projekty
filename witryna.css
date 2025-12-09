@@ -1,0 +1,15 @@
+body{
+    font-family: Georgia;
+}
+nav{
+    background-color: navy;
+    color: white;
+    text-align: center;
+    height: 100px;
+    width: 50%;
+}
+menu{
+    background-color: navy;
+    padding: 20px;
+    
+}
