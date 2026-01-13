@@ -1,0 +1,188 @@
+nav{
+    display: flex;
+    flex-direction: row;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #1B2021;
+}
+#naglowek{
+    font-weight: bold;
+    font-size: xx-large;
+    background-color: #493FA7;
+    color: #FAFAFA;
+    font-family: Arial;
+    width: 945px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#klepsydra{
+    height: 80px;
+    width: 80px;
+}
+#naglowek2{
+    width: 945px;
+    background-color: #E5E6EB;
+    font-size: large;
+    font-family: Arial;
+    color: #000000;
+    height: 150px;
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+#megarodzic{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+article{
+    display: flex;
+    justify-content: center;
+    height: 734px;
+    width: 70%;
+    background: url(497664172-8d6abdd9-8198-4ef8-8d58-16285fd766b4.svg), #645E9D;
+}
+#date{
+    color: #FAFAFA;
+    font-family: Arial;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+#rok{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+button{
+    width: 80px;
+    height: 54px;
+    background-color: #FAC748;
+}
+#date2{
+    height: 50px;
+    width: 250px;
+}
+#zmiana{
+    width: 40px;
+    height: 40px;
+}
+#dzien{
+    width: 360px;
+    height: 450px;
+    background-color: #FAC748;
+    display: flex;
+    align-self: center;
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+}
+#w_dniu{
+    text-align: center;
+    color: #000000;
+    width: 360px;
+    height: 30px;
+    font-family: Arial;
+    font-weight: bold;
+    margin: 20px;
+}
+#data{
+    background-color: #FAFAFA;
+    height: 250px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+
+}
+#miesiac{
+    color: #000000;
+    text-align: center;
+    font-size: x-large;
+}
+#styczen{
+    margin: 20px;
+}
+#dzien2{
+    color: #000000;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+}
+#cos{
+    margin: 0;
+}
+#tydzien{
+    color: #000000;
+    text-align: center;
+}
+#wtorek{
+    margin: 20px;
+}
+#imiona{
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#imieniny{
+    color: #000000;
+    font-size: 25px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+#maja{
+    margin: 0;
+}
+#imiona2{
+    color: #000000;
+    font-size: 20px;
+}
+aside{
+    width: 29.7%;
+    height: 734px;
+    background-color: #493FA7;
+    color: #000000;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+}
+#kalendarz2{
+    width: 70px;
+    height: 70px;
+}
+#kalendarz3{
+    display: flex;
+    justify-self: center;
+}
+#kalendarz4{
+    display: flex;
+    text-align: center;
+}
+#tabela{
+    height: 550px;
+    width: px;
+    background-color: #E5E6EB;
+    border: 2px solid #000000;
+    padding: 10px;
+}
+footer{
+    background-color: #1B2021;
+    color: #FAFAFA;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial;
+    font-weight: bold;
+}
