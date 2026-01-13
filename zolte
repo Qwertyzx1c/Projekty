@@ -1,0 +1,36 @@
+            <section id="date">
+                <p>Sprawdź kto ma imieniny!</p>
+                <section id="rok">
+                    <input id="date2" type="date">
+                    <button>
+                        <img id="zmiana" src="sync-reverse-svgrepo-com.svg" alt="Zmiana">
+                    </button>
+                </section>
+                <section id="dzien">
+                    <p id="w_dniu">W dniu</p>
+                    <section id="data">
+                        <section id="miesiac">
+                            <p id="styczen">Styczeń</p>
+                        </section>
+                        <section id="dzien2">
+                        <p id="cos">13</p>
+                    </section>
+                    <section id="tydzien">
+                        <p id="wtorek">Wtorek, 2026</p>
+                    </section>
+                </section>
+                <section id="imiona">
+                    <section id="imieniny">
+                        <p id="maja">Imieniny mają: </p>
+                    </section>
+                    <section id="imiona2">
+                        <ul>
+                            <li>Bogumiła</li>
+                            <li>Weronika</li>
+                            <li>Bogumił</li>
+                            <li>Bogusław</li>
+                        </ul>
+                    </section>
+                </section>
+            </section>
+        </section>
