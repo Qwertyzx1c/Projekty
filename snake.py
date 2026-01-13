@@ -122,7 +122,48 @@ def draw():
     render_board()
 
 
+while True:
+    draw()
+    print("Sterowanie: w/s/a/d + Enter")
 
+    move = input("Ruch: ").lower()
+    if move in ['w', 's', 'a', 'd']:
+        direction = move
+
+    head_y, head_x = snake[0]
+
+    if direction == 'w':
+        head_y -= 1
+    elif direction == 's':
+        head_y += 1
+    elif direction == 'a':
+        head_x -= 1
+    elif direction == 'd':
+        head_x += 1
+
+    new_head = (head_y, head_x)
+
+
+    if (
+        head_x < 0 or head_x >= WIDTH or
+        head_y < 0 or head_y >= HEIGHT or
+        new_head in snake
+    ):
+        draw()
+        print('GAME OVER!')
+        break
+
+snake.insert(0, new_head)
+
+if new_head == food:
+    food = (random.randint(0, HEIGHT-1), random.randint(0, WIDTH-1))
+elif new_head == super_food:
+    super_food = (random.randint())
+
+else:
+    snake.pop()
+
+time.sleep(0.1)
 
 print("> Big boss")
 print("> Wybierz opcje")
@@ -136,5 +177,3 @@ if Snake == '2':
     print(numguesser())
 if Snake == '3':
     print(PKN())
-
-
