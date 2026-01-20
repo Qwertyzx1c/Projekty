@@ -2,6 +2,7 @@ import random
 import os
 import time
 
+
 def numguesser():
     PLAYING = 1
 
@@ -24,6 +25,8 @@ def numguesser():
                 print(f"Pozostało Ci prób {3-liczba_prob}")
         else:
             print("Nie udało Ci się zgadnąć")
+            print("Twoja liczba to:")
+            print(losowa)
             PLAYING = 0
 
 
@@ -97,13 +100,19 @@ super_food = (random.randint(0, round((HEIGHT-1)/2)), random.randint(0, round((W
 
 # render_board() lub render_board(100, 50)
 
+
+
+
 def render_board(HEIGHT = HEIGHT, WIDTH = WIDTH):
     for y in range(HEIGHT):
         for x in range(WIDTH):
             if(y,x) == food:
-                print(color_text("@"), end="")
+                print(color_text("@", "RED"), end="")
             elif (x,y) in snake:
                 print(color_text("#", "BLUE"))
+            elif (y, x) == super_food and food not in super_food:
+                print(color_text("&", "ORANGE"), end="")
+                continue
             else:
                 print("", end="")
         print()
@@ -133,9 +142,9 @@ while True:
     head_y, head_x = snake[0]
 
     if direction == 'w':
-        head_y -= 1
-    elif direction == 's':
         head_y += 1
+    elif direction == 's':
+        head_y -= 1
     elif direction == 'a':
         head_x -= 1
     elif direction == 'd':
@@ -157,13 +166,11 @@ snake.insert(0, new_head)
 
 if new_head == food:
     food = (random.randint(0, HEIGHT-1), random.randint(0, WIDTH-1))
-elif new_head == super_food:
-    super_food = (random.randint())
-
 else:
     snake.pop()
 
 time.sleep(0.1)
+
 
 print("> Big boss")
 print("> Wybierz opcje")
