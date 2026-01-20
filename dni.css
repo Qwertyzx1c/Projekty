@@ -172,11 +172,12 @@ aside{
     text-align: center;
 }
 #tabela{
-    height: 550px;
-    width: px;
+    height: 630px;
+    width: 500px;
     background-color: #E5E6EB;
     border: 2px solid #000000;
     padding: 10px;
+    margin-left: 50px;
 }
 footer{
     background-color: #1B2021;
@@ -185,4 +186,25 @@ footer{
     justify-content: space-between;
     font-family: Arial;
     font-weight: bold;
+    display: flex;
+    flex-direction: row;
+}
+#media{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#instagram{
+    width: 40px;
+    height: 40px;
+}
+#linkedin{
+    width: 40px;
+    height: 40px;
+}
+#github{
+    width: 40px;
+    height: 40px;
 }
