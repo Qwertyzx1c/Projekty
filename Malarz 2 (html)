@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malarz</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <h1>Malowanie pokoi i biur</h1>
+    </header>
+    <section id="father">
+        <section id="left">
+            <h2>Menu</h2>
+            <li>
+                <ul><a href="index1.html">Mieszamy</a></ul>
+                <ul><a href="index.html">Wyceniamy</a></ul>
+            </li>
+        </section>
+        <section id="middle">
+            <h2>Barwy i ich pochodne</h2>
+            <table>
+                <tr>
+                    <th colspan="2">Składowe</th>
+                    <th>Wynik</th>
+                </tr>
+                <tr>
+                    <td>żółty</td>
+                    <td>czerwony</td>
+                    <td>pomarańczowy</td>
+                </tr>
+                <tr>
+                    <td>czerwony</td>
+                    <td>niebieski</td>
+                    <td>fioletowy</td>
+                </tr>
+            </table>
+        </section>
+        <section id="right">
+            <img src="obraz.png" alt="Próbki farb">
+        </section>
+    </section>
+    <footer>
+        <h3>Malarz</h3>
+        <p>Stronę opracował: Jakub Ura</p>
+    </footer>
+</body>
+
+</html>
