@@ -1,0 +1,71 @@
+body{
+    font-family: sans-serif;
+}
+header{
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 700%;
+    border: 2px solid black;
+}
+nav{
+    width: 2300px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 500%;
+    border: 2px solid black;
+}
+#rodzic{
+    display: flex;
+    flex-direction: row;
+}
+aside{
+    width: 334px;
+    height: 605px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 200%;
+    border: 2px solid black;
+}
+main{
+    width: 2200px;
+    height: 605px;
+    background-color: white;
+    border: 2px solid black;
+    font-size: 300%;
+}
+#cos{
+    display: flex;
+    flex-direction: row;
+}
+#button{
+    display: flex;
+    justify-content: end;
+}
+button{
+    width: 400px;
+    height: 100px;
+    margin-right: 100px;
+}
+#listy{
+    width: 2531px;
+    height: 330px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 2px solid black;
+    font-size: 200%;
+}
+#c{
+    display: flex;
+    flex-direction: column;
+}
