@@ -1,13 +1,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Gaegu&display=swap');
-
 body{
     font-family: "Fuzzy Bubbles", sans-serif;
 }
 #bigr{
     display: flex;
     flex-direction: row;
-    width: 1800px;
+    height: 600px;
 }
 aside{
     display: flex;
@@ -43,6 +42,7 @@ a:hover{
 header{
     display: flex;
     flex-direction: row;
+    height: 100px;
 }
 #mapa{
     width: 100px;
@@ -52,7 +52,7 @@ header{
     background-color: #194F82;
     border-bottom-left-radius: 10px;
     width: 1800px;
-    height: 120px;
+    height: 100px;
     color: #FFFFFF;
     display: flex;
     flex-direction: row;
@@ -75,17 +75,22 @@ header{
 main{
     display: flex;
     flex-direction: row;
-    width: 1000px;
+    width: 800px;
 }
 li{
-    width: 400px;
-    height: 70px;
+    width: 300px;
+    height: 60px;
     border-radius: 5px;
     list-style: inside;
  }
 li:nth-child(even){
     background-color: #FFC10D;
 }
+p{
+    display: flex;
+    margin-left: 20px;
+}
+
 form{
     display: flex;
     flex-direction: column;
@@ -93,7 +98,8 @@ form{
 }
 #koszta{
     width: 1000px;
-    height: 150px;
+    height: 95px;
+    margin-top: 10px;
     background-color: #194F82;
     border-radius: 5px;    
     display: flex;
@@ -101,29 +107,65 @@ form{
     justify-content: space-evenly;
     color: #FFC10D;
 }
-.p{
+.text{
     font-size: 150%;
     font-weight: 720;
+    margin: 0;
+    width: 300px;
 }
 #p1{
     display: flex;
-    flex-direction: row;
-    width: 1000px;
-    justify-content: center;
+    height: 60px;
+    text-align: center;
+    align-items: center;
 }
 #p2{
     display: flex;
-    flex-direction: row;
-    
+    height: 60px;
+    align-items: center;
 }
 #p3{
     display: flex;
-    flex-direction: row;
-    width: 800px;
+    height: 60px;
+    align-items: center;
 }
+#p4{
+    display: flex;
+    margin-top: 50px;
+    font-family: "Fuzzy Bubbles";
+    align-items: center;
+}
+#ulgi{
+    width: 25px;
+    height: 25px;
+}
+#ulgi2{
+    display: flex;
+    background-color: #FFC10D;
+    border-radius: 10px;
+    margin-left: 200px;
+    width: 500px;
+    height: 170px;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 120%;
+}
+button{
+    height: 50px;
+    width: 500px;
+    margin-left: 500px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #FFC10D;
+    color: #194F82;
+    font-family: "Fuzzy Bubbles";
+    font-size: 200%;
+    display: flex;
+}
+
 #wycieczka{
-    width: 685px;
-    margin-left: 100px;
+    width: 500px;
+    margin-left: 200px;
     height: 50px;
     display: flex;
     justify-self: center;
@@ -135,19 +177,19 @@ form{
     border-radius: 10px;
 }
 #dorosli{
-    width: 300px;
+    width: 232px;
     height: 50px;
     display: flex;
     justify-self: center;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 200px;
     background-color:#194F82;
     font-family: "Fuzzy Bubbles";
     color: #FFFFFF;
     border-radius: 10px;
 }
 #dzieci{
-    width: 300px;
+    width: 232px;
     height: 50px;
     display: flex;
     justify-self: center;
@@ -161,18 +203,19 @@ form{
 #autor{
     background-color: #194F82;
     width: 300px;
-    height: 200px;
+    height: 190px;
+    margin-top: 42px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 #termin{
-    width: 500px;
+    width: 495px;
     height: 50px;
     display: flex;
     justify-self: center;
     margin-top: 20px;
-    margin-left: 250px;
+    margin-left: 200px;
     background-color:#194F82;
     font-family: "Fuzzy Bubbles";
     color: #FFFFFF;
