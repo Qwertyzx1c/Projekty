@@ -206,8 +206,8 @@ button{
 #autor{
     background-color: #194F82;
     width: 300px;
-    height: 190px;
-    margin-top: 42px;
+    height: 150px;
+    margin-top: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -215,10 +215,11 @@ button{
 #miejsca{
     background-color: #FFC10D;
     width: 1600px;
-    height: 190px;
-    margin-top: 42px;
+    height: 150px;
+    margin-top: 70px;
     display: flex;
     flex-direction: row;
+    align-items: center;
     overflow: scroll;
 }
 #termin{
@@ -240,6 +241,85 @@ button{
     flex-direction: row;
 }
 #gdansk{
-    height: 200px;
-    width: 300px;
+    height: 110px;
+    flex-direction: row;
+    display: flex;
+    width: 400px;
+    background-color:indianred ;
+    margin: 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    align-items: center;
+}
+#gdansk2{
+    width: 130px;
+    height: 90px;
+    margin: 20px;
+}
+#sopot{
+    height: 110px;
+    flex-direction: row;
+    display: flex;
+    width: 400px;
+    background-color:goldenrod;
+    margin: 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    align-items: center;
+}
+#sopot2{
+    width: 130px;
+    height: 90px;
+    margin: 20px;
+}
+#bieszczady{
+    height: 110px;
+    flex-direction: row;
+    display: flex;
+    width: 400px;
+    background-color:darkslategray ;
+    margin: 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    align-items: center;
+}
+#bieszczady2{
+    width: 130px;
+    height: 90px;
+    margin: 20px;
+}
+#lublin{
+    height: 110px;
+    flex-direction: row;
+    display: flex;
+    width: 400px;
+    background-color:lightskyblue;
+    margin: 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    align-items: center;
+}
+#lublin2{
+    width: 130px;
+    height: 90px;
+    margin: 20px;
+}
+#gdansk3{
+    display: flex;
+    flex-direction: column;
+}
+#sopot3{
+    display: flex;
+    flex-direction: column;
+}
+#bieszczady3{
+    display: flex;
+    flex-direction: column;
+}
+#lublin3{
+    display: flex;
+    flex-direction: column;
+}
+h3{
+    margin: 0;
 }
