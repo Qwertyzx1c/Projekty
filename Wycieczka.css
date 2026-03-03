@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Gaegu&display=swap');
 body{
     font-family: "Fuzzy Bubbles", sans-serif;
@@ -106,13 +107,12 @@ form{
 #p1{
     display: flex;
     flex-direction: row;
-    width: 800px;
+    width: 1000px;
     justify-content: center;
 }
 #p2{
     display: flex;
     flex-direction: row;
-    width: 800px;
     
 }
 #p3{
@@ -121,28 +121,40 @@ form{
     width: 800px;
 }
 #wycieczka{
-    width: 300px;
-    margin-left: 200px;
+    width: 685px;
+    margin-left: 100px;
     height: 50px;
     display: flex;
     justify-self: center;
     margin-top: 20px;
+    background-color:#194F82;
+    font-family: "Fuzzy Bubbles";
+    color: #FFFFFF;
+    font-size: 220%;
+    border-radius: 10px;
 }
 #dorosli{
     width: 300px;
-    margin-left: 200px;
     height: 50px;
     display: flex;
     justify-self: center;
     margin-top: 20px;
+    margin-left: 20px;
+    background-color:#194F82;
+    font-family: "Fuzzy Bubbles";
+    color: #FFFFFF;
+    border-radius: 10px;
 }
 #dzieci{
     width: 300px;
-    margin-left: 200px;
     height: 50px;
     display: flex;
     justify-self: center;
     margin-top: 20px;
+    background-color:#194F82;
+    font-family: "Fuzzy Bubbles";
+    color: #FFFFFF;
+    border-radius: 10px;
 }
 
 #autor{
@@ -152,4 +164,16 @@ form{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+#termin{
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-self: center;
+    margin-top: 20px;
+    margin-left: 250px;
+    background-color:#194F82;
+    font-family: "Fuzzy Bubbles";
+    color: #FFFFFF;
+    border-radius: 10px;
 }
