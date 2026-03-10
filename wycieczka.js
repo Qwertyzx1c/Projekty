@@ -3,7 +3,7 @@ const oblicz_btn = document.querySelector("button")
 oblicz_btn.addEventListener("click", (e) => {
     e.preventDefault()
 
-    const miejsce = document.querySelector("#miejsca").value
+    const miejsca = document.querySelector("#wycieczka").value
     const liczba_dorosli = document.querySelector("#dorosli").value
     const liczba_dzieci = document.querySelector("#dzieci").value
     const termin = document.querySelector("#termin").value
