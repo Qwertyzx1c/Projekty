@@ -137,9 +137,10 @@ form{
     font-family: "Fuzzy Bubbles";
     align-items: center;
 }
-#ulgi{
+.ulgi{
     width: 25px;
     height: 25px;
+    margin: 20px;
 }
 #ulgi2{
     display: flex;
