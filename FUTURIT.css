@@ -71,6 +71,8 @@ a:hover{
     font-size: 80px;
     font-weight: 800;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     display: flex;
     flex-direction: row;
     height: 200px;
@@ -246,7 +248,7 @@ article{
 #niebieski{
     background-color: #61DBFB;
     width: 350px;
-    box-shadow: 0px 5px 3px #000000;
+    box-shadow: 0px 5px  steelblue;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
     transition: 0.078s;
@@ -272,7 +274,7 @@ article{
 #zielony{
     background-color: #42B883;
     width: 350px;
-    box-shadow: 0px 5px 3px #000000;
+    box-shadow: 0px 5px seagreen;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
     transition: 0.078s;
@@ -290,7 +292,7 @@ article{
 #fioletowy{
    background-color: #787CB5;
    width: 350px;
-   box-shadow: 0px 5px 3px #000000;
+   box-shadow: 0px 5px slateblue;
    border-bottom-left-radius: 10px;
    border-top-left-radius: 10px;
    transition: 0.078s;
@@ -308,7 +310,7 @@ article{
 #czerwony{
     background-color: #BC0B15;
     width: 350px;
-    box-shadow: 0px 5px 3px #000000;
+    box-shadow: 0px 5px darkred;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
     transition: 0.078s;
@@ -338,4 +340,66 @@ article{
 #nazwa4{
     font-size: 110%;
     text-shadow: -2px 0 darkred, 0 2px darkred, 2px 0 darkred, 0 -2px darkred;
+}
+#rodzic2{
+    background-color: #D9D9D9;
+    width: 1000px;
+    height: 500px;
+    margin-left: 200px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+#kalkulator{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#rata{
+    background-color: #4B4B4B;
+    width: 300px;
+    height: 250px;
+    border-radius: 5px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: #FFFFFF;
+    font-size: 130%;
+}
+.check{
+    border-radius: 30px;
+    width: 20px;
+    height: 20px;
+}
+#miasta{
+    background-color: #4B4B4B;
+    width: 250px;
+    height: 50px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    margin-left: 20px;
+    font-weight: 700;
+}
+#miasto{
+    margin-top: 70px;
+    width: 300px;
+    height: 400px;
+}
+#ratatuj{
+    width: 200px;
+    height: 400px;
+    margin-top: 70px;
+}
+#raty{
+    border-radius: 5px;
+    width: 350px;
+    height: 50px;
+    font-size: 130%;
+}
+#kurs{
+    width: 350px;
+    height: 200px;
+    background-color: #4B4B4B;
+    color: #FFFFFF;
 }
