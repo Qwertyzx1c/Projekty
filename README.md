@@ -38,5 +38,3 @@ Me uczucie nie minie
 Bo Cię mijam w Londynie
 Lecz fajnie na kawie
 Pogadać w Warszawie (2 x)
-
-Tekst pochodzi z https://www.tekstowo.pl/weekend/halo-tu-londyn
