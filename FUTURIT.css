@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 body{
     font-family: "Inter";
@@ -149,7 +150,7 @@ main{
     font-size: 170%;
     font-weight: 700;
 }
-form{
+#formumalrz2{
     background-color: #D9D9D9;
     width: 45%;
     height: 520px;
@@ -412,6 +413,7 @@ article{
     color: #FFFFFF;
     flex-wrap: wrap;
     display: flex;
+    border-radius: 5px;
 }
 .kursy{
     font-size: 120%;
