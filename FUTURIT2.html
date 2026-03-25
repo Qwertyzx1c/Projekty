@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
-    <script defer src="script.js"></script>
+    <script defer src="index.js"></script>
 </head>
 
 <body>
@@ -82,10 +82,10 @@
             <h2>OBLICZ MIESIĘCZNĄ RATE</h2>
             <p>WYBIERZ KURSY:</p>
             <section id="rata">
-                <label><input type="checkbox" value="1000" class="check">React.js</label>
-                <label><input type="checkbox" value="2000" class="check">Vue.js</label>
-                <label><input type="checkbox" value="3000" class="check">PHP</label>
-                <label><input type="checkbox" value="4000" class="check">Java</label>
+                <label><input name="React.js" type="checkbox" value="1000" class="check">React.js</label>
+                <label><input name="Vue.js" type="checkbox" value="2000" class="check">Vue.js</label>
+                <label><input name="PHP" type="checkbox" value="3000" class="check">PHP</label>
+                <label><input name="Java" type="checkbox" value="4000" class="check">Java</label>
             </section>
             <section id="miasto">
                 <p>MIASTO:</p>
@@ -104,17 +104,13 @@
                 <section id="kurs">
                     <table>
                         <tr>
-                            <td>Kurs</td>
-                            <td>Kwota</td>
-                        </tr>
-                        <tr>
-                            <td>Kurs</td>
-                            <td></td>
+                            <td>Kurs:</td>
+                            <td>Kwota:</td>
                         </tr>
                     </table>
-                    <section id="liczba" span="liczba">
-                        <p>Liczba rat:</p>
-                        <p>Suma miesięczna:</p>
+                    <section id="liczba">
+                        <p>Liczba rat: <span id="raty_span"></span></p>
+                        <p>Suma miesięczna: <span id="suma_span"></span></p>
                     </section>
                 </section>
                     <button><img src="calculate-icon.svg" alt="Oblicz"></button>
